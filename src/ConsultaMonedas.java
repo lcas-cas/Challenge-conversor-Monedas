@@ -16,7 +16,6 @@ public class ConsultaMonedas {
                "1ac8ba2dec5a7ca6c79b7463/pair/"+monedaBase+"/"+monedaDestino+"/"+monto);
 
 
-
         HttpClient client = HttpClient.newHttpClient();
 
         HttpRequest request = HttpRequest.newBuilder()
@@ -26,7 +25,6 @@ public class ConsultaMonedas {
         try {
             HttpResponse<String> response = client
                     .send(request, HttpResponse.BodyHandlers.ofString());
-
 
             return new Gson().fromJson(response.body(),MonedasApi.class) ;
 
@@ -38,7 +36,5 @@ public class ConsultaMonedas {
         }
         return null;
 
-
     }
-
 }
