@@ -37,7 +37,7 @@ public class Historial {
             return;
         }
 
-        System.out.println("     ===== Historial de conversiones =====      ║");
+        System.out.println("     ===== Historial de conversiones =====      ");
 
 
         try(Scanner lector = new Scanner(archivo)) {

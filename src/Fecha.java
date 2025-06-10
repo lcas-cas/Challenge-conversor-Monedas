@@ -11,7 +11,6 @@ public class Fecha {
 
         //String fechaConFormato = fechaSinFormato.format(formatoDeFecha);
 
-
         return fechaSinFormato.format(formatoDeFecha);
     }
 }

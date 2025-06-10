@@ -33,7 +33,6 @@ public class Principal {
                 Seleccione una opción (1-14):
                 """;
 
-
         int opcion;
 
         do {
@@ -153,11 +152,6 @@ public class Principal {
                     resultado.conversion_result(),
                     fecha.obtenerFecha());
 
-
         }while(true);
-
-
-
-
     }
 }
