@@ -62,14 +62,10 @@ public class Principal {
                 continue;
             }
 
-            //Para las opciones de 1 a 12: pedir monto y convertir
-            System.out.println("Ingrese el valor que deseas convertir: ");
-            double monto = teclado.nextDouble();
 
-            if (monto<=0){
-                System.out.println("El monto debe ser mayor a 0. Intente de nuevo\n");
-                continue;
-            }
+
+            double monto = ValidadorDeMonto.obtenerMontoValido(teclado);
+            
 
             //Define monedas según opción.
             switch (opcion) {
@@ -136,7 +132,7 @@ public class Principal {
 
             }
 
-            //Realiza conversión y garda en historial
+            //Realiza conversión y guarda en historial
             MonedasApi resultado = convertir.
                     convertirMonedasConMonto(monedaBase, monedaDestino, monto);
 
