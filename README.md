@@ -27,6 +27,7 @@ Este es un proyecto de consola en Java que permite convertir entre diversas mone
 ## 📂 Estructura del Proyecto
 
 src/
+
 ├── ConsultaMonedas.java # Maneja la lógica de consulta a la API
 ├── Fecha.java # Obtiene fecha y hora de cada conversión
 ├── Historial.java # Guarda las conversiones en historial.txt
