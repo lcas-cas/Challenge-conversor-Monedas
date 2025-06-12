@@ -28,16 +28,11 @@ Este es un proyecto de consola en Java que permite convertir entre diversas mone
 
 src/
 
-├── ConsultaMonedas.java # Maneja la lógica de consulta a la API
-
-├── Fecha.java # Obtiene fecha y hora de cada conversión
-
-├── Historial.java # Guarda las conversiones en historial.txt
-
-├── MonedasApi.java # Construye las URLs para la API
-
-├── Principal.java # Lógica principal e interacción con usuario
-
+├── ConsultaMonedas.java # Maneja la lógica de consulta a la API  
+├── Fecha.java # Obtiene fecha y hora de cada conversión  
+├── Historial.java # Guarda las conversiones en historial.txt  
+├── MonedasApi.java # Construye las URLs para la API  
+├── Principal.java # Lógica principal e interacción con usuario  
 ├── ValidadorDeMonto.java # Valida que el monto ingresado sea correcto
 
 Otros archivos:
@@ -85,7 +80,7 @@ README.md # Documentación del proyecto
 
 ## Ejemplo de historial (historial.txt)
 
-[2025-06-12T14:52:37] 100 USD => 127,400 ARS
+[2025-06-12T14:52:37] 100 USD => 127,400 ARS  
 [2025-06-12T14:55:10] 200 BRL => 38,400 USD
 
 ## 💡 Ideas de mejoras futuras
