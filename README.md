@@ -29,10 +29,15 @@ Este es un proyecto de consola en Java que permite convertir entre diversas mone
 src/
 
 ├── ConsultaMonedas.java # Maneja la lógica de consulta a la API
+
 ├── Fecha.java # Obtiene fecha y hora de cada conversión
+
 ├── Historial.java # Guarda las conversiones en historial.txt
+
 ├── MonedasApi.java # Construye las URLs para la API
+
 ├── Principal.java # Lógica principal e interacción con usuario
+
 ├── ValidadorDeMonto.java # Valida que el monto ingresado sea correcto
 
 Otros archivos:
